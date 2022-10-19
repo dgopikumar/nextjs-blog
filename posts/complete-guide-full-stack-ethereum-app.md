@@ -2,33 +2,31 @@
 title: 'Complete guide full stack ethereum development'
 date: '2022-10-15'
 image: '1-0.png'
-excerpt: 'Next JS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR.'
+excerpt: 'Learn how to build a modern full stack dApp on the Ethereum blockchain with React, Solidity, Hardhat, and Ethers.js.'
 isFeatured: 'true'
 ---
 
-NextJS is a **framework for ReactJS**.
+Learn how to build a modern full stack dApp on the Ethereum blockchain with React, Solidity, Hardhat, and Ethers.js. We’ll start from scratch, creating a React application, installing the dependencies, and initializing a new local Hardhat Ethereum environment.
 
-Wait a second ... a "framework" for React? Isn't React itself already a framework for JavaScript?
+Next, we’ll create a couple of different smart contracts in Solidity, compile them, and deploy them to a local blockchain node that we will also initialize using Hardhat. We’ll then learn how to deploy the smart contracts to a real live test network.
 
-Well ... first of all, React is a "library" for JavaScript. That seems to be important for some people.
+We’ll then connect the React front end to allow users to read data from the blockchain as well as create transactions with MetaMask using test Ether that we create using accounts created by our local test environment.
 
-Not for me, but still, there is a valid point: React already is a framework / library for JavaScript. So it's already an extra layer on top of JS.
+## Prerequisites
 
-## Why would we then need NextJS?
+Watch tutorial on YouTube:[The Complete Guide to Full Stack Ethereum Development ](https://www.youtube.com/watch?v=a0osIaAOFSE&list=PL6uFURojmxH7X-1yx23Zfk2vdVZYIl5R4&index=5)
+This tutorial presented by NaderDabit. One of the best coach who teaches Web3 technology stack in the web. Follow him: [![YouTube Channel](/images/site/youtube.png)](https://www.youtube.com/c/naderdabit) [![Twitter URL](/images/site/twitter.png)](https://twitter.com/dabit3)
 
-Because NextJS makes building React apps easier - especially React apps that should have server-side rendering (though it does way more than just take care of that).
 
-In this article, we'll dive into the core concepts and features NextJS has to offer:
-
-- File-based Routing
-- Built-in Page Pre-rendering
-- Rich Data Fetching Capabilities
-- Image Optimization
-- Much More
-
-## File-based Routinggggggggg
+### Initial Setup:
 
 ![Create routes via your file + folder structure](/images/posts/complete-guide-full-stack-ethereum-app/1-1.webp)
+
+```js
+//for npm users -- use below command
+
+> npm install --save-dev ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers
+```
 
 ![Create routes via your file + folder structure](/images/posts/complete-guide-full-stack-ethereum-app/1-2.webp)
 
@@ -90,4 +88,4 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 
 ![Create routes via your file + folder structure](/images/posts/complete-guide-full-stack-ethereum-app/1-31.webp)
 
-... More content ...
+For complete source code reference : [![Github URL](/images/site/github48-2.png)](https://github.com/dgopikumar/react-dapp)

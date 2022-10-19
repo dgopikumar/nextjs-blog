@@ -52,6 +52,7 @@ function PostContent(props) {
       return (
         <SyntaxHighlighter
           style={atomDark}
+          className={classes.code}
           language={language}
           children={children}
         />

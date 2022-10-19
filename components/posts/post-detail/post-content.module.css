@@ -31,3 +31,18 @@
       padding: var(--size-8);
     }
   }
+
+  .code {
+    
+    width: 68.2%;
+    max-width: 850px;
+    border: 7px solid #87848b;
+    padding: 0px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 0.5em 200px;
+    
+
+ 
+    
+  }

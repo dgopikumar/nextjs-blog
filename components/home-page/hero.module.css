@@ -38,3 +38,8 @@
     max-width: 50rem;
     margin: auto;
   }
+
+  .logo {
+    margin-top: 40px;
+    margin-left: 35px;
+  }
