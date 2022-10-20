@@ -53,7 +53,7 @@ function PostContent(props) {
         <SyntaxHighlighter
           style={atomDark}
           customStyle={{
-            margin: '0.5em 200px'
+            margin: 'var(--size-4) auto'
           }}
           className={classes.code}
           language={language}
