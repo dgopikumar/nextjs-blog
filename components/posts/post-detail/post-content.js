@@ -52,6 +52,9 @@ function PostContent(props) {
       return (
         <SyntaxHighlighter
           style={atomDark}
+          customStyle={{
+            margin: '0.5em 200px'
+          }}
           className={classes.code}
           language={language}
           children={children}

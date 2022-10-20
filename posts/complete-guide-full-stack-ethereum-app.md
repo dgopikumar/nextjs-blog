@@ -1,7 +1,7 @@
 ---
 title: 'Complete guide full stack ethereum development'
 date: '2022-10-15'
-image: '1-0.png'
+image: '1-0.webp'
 excerpt: 'Learn how to build a modern full stack dApp on the Ethereum blockchain with React, Solidity, Hardhat, and Ethers.js.'
 isFeatured: 'true'
 ---
@@ -24,7 +24,6 @@ This tutorial presented by NaderDabit. One of the best coach who teaches Web3 te
 
 ```js
 //for npm users -- use below command
-
 > npm install --save-dev ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers
 ```
 
